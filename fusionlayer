@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Fusion Tables layers</title>
+   
+  </head>
+  <body>
+    <div id="map" style="width:700px;height:600px"></div>
+    <script>
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 14.00, lng: 2.00},
+          zoom: 11
+        });
+
+        
+ var layer = new google.maps.FusionTablesLayer({
+          query: {
+            select: '\'Geocodable address\'',
+            from: '1TCpx53TFI6VepsUyaF_zHfaeyDF8p-imkV7IoOe0'
+          }
+        });
+        layer.setMap(map);
+      }
+
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzGrYijLQviiwIjrwSDv9mQcXXmTdcpMA&callback=initMap">
+    </script>
+  </body>
+</html>

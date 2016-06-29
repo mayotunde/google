@@ -4,21 +4,14 @@
     <title>basic google map</title>
       <meta charset="utf-8">
 
-* insert the javascript library and API key for Google maps api in the head section
-
 <script async defer
  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzGrYijLQviiwIjrwSDv9mQcXXmTdcpMA&callback=initMap">
     </script>
       </head>
-
-* Create the div container for the google map
   <body>
     <div id="map" style="width:700px;height:600px"></div>
     <script>
 
-* initialize the map and assign mapoptions zoom center and the mapTypeId
-to define the type of google base map 
-     	 
 	var map;
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
@@ -26,21 +19,16 @@ to define the type of google base map
           center: {lat: 9, lng: 8},
 	mapTypeId: google.maps.MapTypeId.ROADMAP
 	        });
-	
+
 	}
 
-* Close the script 
+
 
 </script>
-
-* Create a div container inset in the map  and put the mapsnigeriainitiative logo
 
 <div id='logo' style='position:absolute;bottom:80px;left:20px;float:right';>
 <img src="https://lh3.googleusercontent.com/jY9fWF3HjY1NPeluF6LQDyDRL2zqGevA_IW0jKu5Z6GqsiSw6mHE_oCNDvGV_PnL_G6JFZKzZDHNqSHd6wS9F12GHCGpPiDU2yF2RK3ELBYotYSNMPOVUnyyobGCGKDA1Rc3Xga6vaxbx0MN3YR2WVvwW6avdpXMUZdZNAtBVPlV0famTCd-dXeHDmr53KNPQQNWLLM5Wgp3rUYvxbINhvTCnMlaUeHrp0Hab5BJaTB6SbabPpnPNPT1X3uvz6nQs3PgSbbG2pevw4Yn91DQI_kTuIcf7fmS39MdOm2LSFpB0wHgEvvlloLJfpXw0TvGjBpgZFeA8pIdmeoAr6q4aonVVkydr3WMN8v6DJ2DzFcfgYUHalxrDPoJTiZoh0U-qNTeUxc-kpXca8xlmO2EpZg4_SFbdZUU6ZNgQBiJoP99IwZ03Qzvp_0bdEbmigdzY8RLwP5riKHgotnXY4E71qS8yzlD8JvK4bK5ojBzvZvXlnfXDo0y82a8LJCHqjxbK3RbKDYZybb72d31gc-bpx6m1sKT24RnHZp2hq9FVbs=w80-h50-no" /><br>
 <small><a href="http://mapsnigeriainitiative.wordpress.com">mapsNI</a><small>
 </div>
-
-* Close the body of the html page
-    
   </body>
 </html>

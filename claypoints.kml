@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="claypoints" id="claypoints">
+	<SimpleField name="id" type="int"></SimpleField>
+	<SimpleField name="NAME_1" type="string"></SimpleField>
+	<SimpleField name="Region" type="string"></SimpleField>
+	<SimpleField name="PH" type="int"></SimpleField>
+	<SimpleField name="STATUS" type="string"></SimpleField>
+</Schema>
+<Folder><name>claypoints</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">0</SimpleData>
+		<SimpleData name="NAME_1">Sokoto</SimpleData>
+		<SimpleData name="Region">NW</SimpleData>
+		<SimpleData name="PH">6</SimpleData>
+		<SimpleData name="STATUS">acidic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>5.26660333347712,13.2305255495145</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">1</SimpleData>
+		<SimpleData name="NAME_1">Zamfara</SimpleData>
+		<SimpleData name="Region">NW</SimpleData>
+		<SimpleData name="PH">5</SimpleData>
+		<SimpleData name="STATUS">acidic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>6.38912240027861,11.6269268831692</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">2</SimpleData>
+		<SimpleData name="NAME_1">Niger</SimpleData>
+		<SimpleData name="Region">NC</SimpleData>
+		<SimpleData name="PH">4</SimpleData>
+		<SimpleData name="STATUS">acidic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>6.20871755067446,10.0634181833026</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">3</SimpleData>
+		<SimpleData name="NAME_1">Niger</SimpleData>
+		<SimpleData name="Region">NC</SimpleData>
+		<SimpleData name="PH">2</SimpleData>
+		<SimpleData name="STATUS">acidic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>5.06615350018393,9.94314828296694</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">4</SimpleData>
+		<SimpleData name="NAME_1">Niger</SimpleData>
+		<SimpleData name="Region">NC</SimpleData>
+		<SimpleData name="PH">2</SimpleData>
+		<SimpleData name="STATUS">acidic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>6.36907741748888,9.26161884923056</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">5</SimpleData>
+		<SimpleData name="NAME_1">Kaduna</SimpleData>
+		<SimpleData name="Region">NW</SimpleData>
+		<SimpleData name="PH">2</SimpleData>
+		<SimpleData name="STATUS">acidic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>7.9526311001452,9.64247353302716</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">6</SimpleData>
+		<SimpleData name="NAME_1">Kaduna</SimpleData>
+		<SimpleData name="Region">NW</SimpleData>
+		<SimpleData name="PH">2</SimpleData>
+		<SimpleData name="STATUS">acidic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>7.61186638372669,10.5244528000567</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">7</SimpleData>
+		<SimpleData name="NAME_1">Kano</SimpleData>
+		<SimpleData name="Region">NW</SimpleData>
+		<SimpleData name="PH">7</SimpleData>
+		<SimpleData name="STATUS">neutral</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>8.43371070058839,11.667016849648</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">8</SimpleData>
+		<SimpleData name="NAME_1">Jigawa</SimpleData>
+		<SimpleData name="Region">SE</SimpleData>
+		<SimpleData name="PH">9</SimpleData>
+		<SimpleData name="STATUS">basic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>9.55622976738988,12.0879614999233</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">9</SimpleData>
+		<SimpleData name="NAME_1">Bauchi</SimpleData>
+		<SimpleData name="Region">NE</SimpleData>
+		<SimpleData name="PH">7</SimpleData>
+		<SimpleData name="STATUS">neutral</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>10.5985689003346,11.687061833337</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">10</SimpleData>
+		<SimpleData name="NAME_1">Bauchi</SimpleData>
+		<SimpleData name="Region">NE</SimpleData>
+		<SimpleData name="PH">7</SimpleData>
+		<SimpleData name="STATUS">neutral</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>10.1976692337482,10.3039579830745</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">11</SimpleData>
+		<SimpleData name="NAME_1">Bauchi</SimpleData>
+		<SimpleData name="Region">NE</SimpleData>
+		<SimpleData name="PH">7</SimpleData>
+		<SimpleData name="STATUS">neutral</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>9.29564498392892,10.5444977828465</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">12</SimpleData>
+		<SimpleData name="NAME_1">Plateau</SimpleData>
+		<SimpleData name="Region">NC</SimpleData>
+		<SimpleData name="PH">5</SimpleData>
+		<SimpleData name="STATUS">acidic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>9.57627475017961,9.00103406666886</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">13</SimpleData>
+		<SimpleData name="NAME_1">Plateau</SimpleData>
+		<SimpleData name="Region">NC</SimpleData>
+		<SimpleData name="PH">5</SimpleData>
+		<SimpleData name="STATUS">acidic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>9.05510518325764,9.44202369973402</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">14</SimpleData>
+		<SimpleData name="NAME_1">Nassarawa</SimpleData>
+		<SimpleData name="Region">NC</SimpleData>
+		<SimpleData name="PH">5</SimpleData>
+		<SimpleData name="STATUS">acidic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>8.39362073410962,8.49990948253662</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">15</SimpleData>
+		<SimpleData name="NAME_1">Benue</SimpleData>
+		<SimpleData name="Region">NC</SimpleData>
+		<SimpleData name="PH">5</SimpleData>
+		<SimpleData name="STATUS">acidic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>8.71434046683913,7.31725546646663</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">16</SimpleData>
+		<SimpleData name="NAME_1">Cross River</SimpleData>
+		<SimpleData name="Region">SS</SimpleData>
+		<SimpleData name="PH">5</SimpleData>
+		<SimpleData name="STATUS">acidic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>8.71434046683913,6.23482636614392</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">17</SimpleData>
+		<SimpleData name="NAME_1">Taraba</SimpleData>
+		<SimpleData name="Region">NE</SimpleData>
+		<SimpleData name="PH">10</SimpleData>
+		<SimpleData name="STATUS">basic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>10.2978941503948,8.03887486668179</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">18</SimpleData>
+		<SimpleData name="NAME_1">Taraba</SimpleData>
+		<SimpleData name="Region">NE</SimpleData>
+		<SimpleData name="PH">10</SimpleData>
+		<SimpleData name="STATUS">basic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>11.3402332833394,7.37739041663446</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">19</SimpleData>
+		<SimpleData name="NAME_1">Taraba</SimpleData>
+		<SimpleData name="Region">NE</SimpleData>
+		<SimpleData name="PH">3</SimpleData>
+		<SimpleData name="STATUS">acidic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>11.2400083666928,8.68031433304009</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">20</SimpleData>
+		<SimpleData name="NAME_1">Adamawa</SimpleData>
+		<SimpleData name="Region">NE</SimpleData>
+		<SimpleData name="PH">2</SimpleData>
+		<SimpleData name="STATUS">acidic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>12.4827973338299,9.52220363269157</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">21</SimpleData>
+		<SimpleData name="NAME_1">Borno</SimpleData>
+		<SimpleData name="Region">NE</SimpleData>
+		<SimpleData name="PH">2</SimpleData>
+		<SimpleData name="STATUS">acidic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>12.903741983206,10.9453974494328</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">22</SimpleData>
+		<SimpleData name="NAME_1">Borno</SimpleData>
+		<SimpleData name="Region">NE</SimpleData>
+		<SimpleData name="PH">8</SimpleData>
+		<SimpleData name="STATUS">basic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>13.6654513498999,11.9276016331089</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">23</SimpleData>
+		<SimpleData name="NAME_1">Borno</SimpleData>
+		<SimpleData name="Region">NE</SimpleData>
+		<SimpleData name="PH">8</SimpleData>
+		<SimpleData name="STATUS">basic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>13.0841468337094,12.869715849407</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">24</SimpleData>
+		<SimpleData name="NAME_1">Borno</SimpleData>
+		<SimpleData name="Region">NE</SimpleData>
+		<SimpleData name="PH">8</SimpleData>
+		<SimpleData name="STATUS">basic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>12.8836970004163,11.8474216992521</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">25</SimpleData>
+		<SimpleData name="NAME_1">Yobe</SimpleData>
+		<SimpleData name="Region">NE</SimpleData>
+		<SimpleData name="PH">8</SimpleData>
+		<SimpleData name="STATUS">basic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>11.5406831166326,12.0278265497555</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">26</SimpleData>
+		<SimpleData name="NAME_1">Yobe</SimpleData>
+		<SimpleData name="Region">NE</SimpleData>
+		<SimpleData name="PH">8</SimpleData>
+		<SimpleData name="STATUS">basic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>11.2800983340709,12.8496708666173</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">27</SimpleData>
+		<SimpleData name="NAME_1">Kwara</SimpleData>
+		<SimpleData name="Region">NC</SimpleData>
+		<SimpleData name="PH">8</SimpleData>
+		<SimpleData name="STATUS">basic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>4.86570366689074,8.45981951605785</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">28</SimpleData>
+		<SimpleData name="NAME_1">Kwara</SimpleData>
+		<SimpleData name="Region">NC</SimpleData>
+		<SimpleData name="PH">8</SimpleData>
+		<SimpleData name="STATUS">basic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>4.58507390064005,8.9408991165011</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">29</SimpleData>
+		<SimpleData name="NAME_1">Kwara</SimpleData>
+		<SimpleData name="Region">NC</SimpleData>
+		<SimpleData name="PH">8</SimpleData>
+		<SimpleData name="STATUS">basic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>3.68304965082075,9.56229360006961</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">30</SimpleData>
+		<SimpleData name="NAME_1">Oyo</SimpleData>
+		<SimpleData name="Region">SW</SimpleData>
+		<SimpleData name="PH">5</SimpleData>
+		<SimpleData name="STATUS">acidic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>3.3222399507132,8.05891984947152</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">31</SimpleData>
+		<SimpleData name="NAME_1">Oyo</SimpleData>
+		<SimpleData name="Region">SW</SimpleData>
+		<SimpleData name="PH">5</SimpleData>
+		<SimpleData name="STATUS">acidic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>3.84340951673585,8.58008941639349</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">32</SimpleData>
+		<SimpleData name="NAME_1">Ogun</SimpleData>
+		<SimpleData name="Region">SW</SimpleData>
+		<SimpleData name="PH">5</SimpleData>
+		<SimpleData name="STATUS">acidic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>3.16188008389878,7.05667068300568</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">33</SimpleData>
+		<SimpleData name="NAME_1">Lagos</SimpleData>
+		<SimpleData name="Region">SW</SimpleData>
+		<SimpleData name="PH">5</SimpleData>
+		<SimpleData name="STATUS">acidic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>3.77744883929256,6.5702513426254</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">34</SimpleData>
+		<SimpleData name="NAME_1">Ogun</SimpleData>
+		<SimpleData name="Region">SW</SimpleData>
+		<SimpleData name="PH">5</SimpleData>
+		<SimpleData name="STATUS">acidic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>4.16577687490292,6.85007595664013</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">35</SimpleData>
+		<SimpleData name="NAME_1">Ogun</SimpleData>
+		<SimpleData name="Region">SW</SimpleData>
+		<SimpleData name="PH">5</SimpleData>
+		<SimpleData name="STATUS">acidic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>4.39420513146172,6.47888004018176</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">36</SimpleData>
+		<SimpleData name="NAME_1">Lagos</SimpleData>
+		<SimpleData name="Region">SW</SimpleData>
+		<SimpleData name="PH">5</SimpleData>
+		<SimpleData name="STATUS">acidic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>3.25777455535149,6.50172286511815</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">37</SimpleData>
+		<SimpleData name="NAME_1">Ondo</SimpleData>
+		<SimpleData name="Region">SW</SimpleData>
+		<SimpleData name="PH">5</SimpleData>
+		<SimpleData name="STATUS">acidic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>4.93101153455473,6.09626271035586</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">38</SimpleData>
+		<SimpleData name="NAME_1">Ondo</SimpleData>
+		<SimpleData name="Region">SW</SimpleData>
+		<SimpleData name="PH">5</SimpleData>
+		<SimpleData name="STATUS">acidic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>4.8053759938071,6.61022628761316</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">39</SimpleData>
+		<SimpleData name="NAME_1">Ondo</SimpleData>
+		<SimpleData name="Region">SW</SimpleData>
+		<SimpleData name="PH">5</SimpleData>
+		<SimpleData name="STATUS">acidic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>5.222257561937,7.07850421319893</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">40</SimpleData>
+		<SimpleData name="NAME_1">Edo</SimpleData>
+		<SimpleData name="Region">SS</SimpleData>
+		<SimpleData name="PH">5</SimpleData>
+		<SimpleData name="STATUS">acidic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>6.21592047724829,6.87862948915966</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">41</SimpleData>
+		<SimpleData name="NAME_1">Kogi</SimpleData>
+		<SimpleData name="Region">NC</SimpleData>
+		<SimpleData name="PH">3</SimpleData>
+		<SimpleData name="STATUS">acidic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>7.0382622010398,7.43256801140467</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">42</SimpleData>
+		<SimpleData name="NAME_1">Enugu</SimpleData>
+		<SimpleData name="Region">SE</SimpleData>
+		<SimpleData name="PH">3</SimpleData>
+		<SimpleData name="STATUS">acidic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>7.38661529256177,6.40464085689007</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">43</SimpleData>
+		<SimpleData name="NAME_1">Anambra</SimpleData>
+		<SimpleData name="Region">SE</SimpleData>
+		<SimpleData name="PH">4</SimpleData>
+		<SimpleData name="STATUS">acidic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>6.88978383445647,6.13623765534356</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">44</SimpleData>
+		<SimpleData name="NAME_1">Imo</SimpleData>
+		<SimpleData name="Region">SE</SimpleData>
+		<SimpleData name="PH">8</SimpleData>
+		<SimpleData name="STATUS">basic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>6.96973372443188,5.43953147229968</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">45</SimpleData>
+		<SimpleData name="NAME_1">Delta</SimpleData>
+		<SimpleData name="Region">SS</SimpleData>
+		<SimpleData name="PH">8</SimpleData>
+		<SimpleData name="STATUS">basic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>5.99891363405703,5.47379571060361</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">46</SimpleData>
+		<SimpleData name="NAME_1">Akwa Ibom</SimpleData>
+		<SimpleData name="Region">SS</SimpleData>
+		<SimpleData name="PH">8</SimpleData>
+		<SimpleData name="STATUS">basic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>7.7635219157039,5.01693919748601</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">47</SimpleData>
+		<SimpleData name="NAME_1">Rivers</SimpleData>
+		<SimpleData name="Region">SS</SimpleData>
+		<SimpleData name="PH">8</SimpleData>
+		<SimpleData name="STATUS">basic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>6.64422345874567,5.03407131753733</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">48</SimpleData>
+		<SimpleData name="NAME_1">Bayelsa</SimpleData>
+		<SimpleData name="Region">SS</SimpleData>
+		<SimpleData name="PH">8</SimpleData>
+		<SimpleData name="STATUS">basic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>6.14168129395659,4.91985718925793</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">49</SimpleData>
+		<SimpleData name="NAME_1">Ebonyi</SimpleData>
+		<SimpleData name="Region">SE</SimpleData>
+		<SimpleData name="PH">8</SimpleData>
+		<SimpleData name="STATUS">basic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>8.11187500722588,6.27329460855941</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">50</SimpleData>
+		<SimpleData name="NAME_1">Abia</SimpleData>
+		<SimpleData name="Region">SE</SimpleData>
+		<SimpleData name="PH">8</SimpleData>
+		<SimpleData name="STATUS">basic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>7.5522257782971,5.60514195893433</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">51</SimpleData>
+		<SimpleData name="NAME_1">Federal Capital Territory</SimpleData>
+		<SimpleData name="Region">NC</SimpleData>
+		<SimpleData name="PH">8</SimpleData>
+		<SimpleData name="STATUS">basic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>7.20387268767445,8.76887331155416</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">52</SimpleData>
+		<SimpleData name="NAME_1">Kogi</SimpleData>
+		<SimpleData name="Region">NC</SimpleData>
+		<SimpleData name="PH">8</SimpleData>
+		<SimpleData name="STATUS">basic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>5.96464939575304,8.11785278108101</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">53</SimpleData>
+		<SimpleData name="NAME_1">Katsina</SimpleData>
+		<SimpleData name="Region">NW</SimpleData>
+		<SimpleData name="PH">6</SimpleData>
+		<SimpleData name="STATUS">acidic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>7.52938295246133,11.9782903167448</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">54</SimpleData>
+		<SimpleData name="NAME_1">Gombe</SimpleData>
+		<SimpleData name="Region">NE</SimpleData>
+		<SimpleData name="PH">3</SimpleData>
+		<SimpleData name="STATUS">acidic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>11.3441348373529,10.3792925208332</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">55</SimpleData>
+		<SimpleData name="NAME_1">Borno</SimpleData>
+		<SimpleData name="Region">NE</SimpleData>
+		<SimpleData name="PH">3</SimpleData>
+		<SimpleData name="STATUS">acidic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>12.5605153034385,10.8875453914067</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">56</SimpleData>
+		<SimpleData name="NAME_1">Adamawa</SimpleData>
+		<SimpleData name="Region">NE</SimpleData>
+		<SimpleData name="PH">3</SimpleData>
+		<SimpleData name="STATUS">acidic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>12.0065767811935,8.24348832182864</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">57</SimpleData>
+		<SimpleData name="NAME_1">Kebbi</SimpleData>
+		<SimpleData name="Region">NW</SimpleData>
+		<SimpleData name="PH">3</SimpleData>
+		<SimpleData name="STATUS">acidic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>4.19813754431226,12.2143328479826</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">58</SimpleData>
+		<SimpleData name="NAME_1">Kebbi</SimpleData>
+		<SimpleData name="Region">NW</SimpleData>
+		<SimpleData name="PH">2</SimpleData>
+		<SimpleData name="STATUS">acidic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>4.16768044379751,11.4833624275341</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">59</SimpleData>
+		<SimpleData name="NAME_1">Zamfara</SimpleData>
+		<SimpleData name="Region">NW</SimpleData>
+		<SimpleData name="PH">4</SimpleData>
+		<SimpleData name="STATUS">acidic</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>6.36059170694176,12.3818469035118</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#claypoints">
+		<SimpleData name="id">60</SimpleData>
+		<SimpleData name="PH">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>-1.79769313486232e+308,-1.79769313486232e+308</coordinates></Point></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

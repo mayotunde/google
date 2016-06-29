@@ -16,7 +16,7 @@
     <div id="map" style="width:700px;height:600px"></div>
     <script>
 
-* initialize the map and assign mapoptions zoom, center and the mapTypeId
+* initialize the map and assign mapoptions zoom center and the mapTypeId
 to define the type of google base map 
      	 
 	var map;

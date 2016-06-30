@@ -22,14 +22,14 @@
 	
 	var marker= new google.maps.Marker({
 	position:point,
-	 icon:'file:///C:/Users/user/Documents/image and icon files/tipper2.png'
+	 icon:'https://lh3.googleusercontent.com/oAWh93a-MGo-_RvTv7a568lNyv2_4K_0ifxsk9koG0sRbSPB--3kzEvSmqsWjEaxtYHe_l86xepbrIJm5adcIZ_4qpnspo7T07ni-rAM4dw-Liu1DuyNXCCtOpt43rFdMvNmUtKyPpzZTck4bunuf_BV1wD29JropOquK24Ky5SqhdoZEGoKA_F0HwJ7exhjVQX84pJ2xRuQn5_EDctX5Y-XBaEMyDi1OFgrykxyHqBXstev6UuVKjfUqImHrDl9dritg0Uqto8zF1lAEQs735NUtMmOnjDuo00oOPrwp8gzs55ZPqDia5htTVC2K4spLvKHALd2aQ7O__pF9Zy7BGfE3T1m9nDbUyva4RPI9sWaBd-sYZHhe4msBpkDGaM6Fi2DZ9ML6DI-VERiOpSYtP5veJo2aUazUajIjdW93oadz5L0Ll_CfR-2SMxBplAess0GUIjyk6F1YOgNjZNGbohEHdfdCeeLjJ1pmS1KTTWoalOoF6J9b8girD21f4-LAhX3WPVuGfG1Texvbi1JPvKkDhHxGpYyoiMgxadlFutcI0QfgQZX3xJ8n025713MBYwOXYJS1odMfGRMZE6h2Ox3YYdc8A=w25-h23-no'
 	
 	});
 marker.setMap(map);
 
 var marker2= new google.maps.Marker({
 	position:point2,
-        icon:'file:///C:/Users/user/Documents/image and icon files/smile2.png'
+        icon:'https://lh3.googleusercontent.com/vQNgv0r6XYVmz3HxSZtQPA8k1fWyeIIu2Fm7Yz2PdpZbuqtABT1atSCQSSnQ08WLRwDYw_jcokx-9SBnYLoYX8WrNyGpSKz3FMNJz-fjxBhFVYVBD-X3ev8Gngen-DQjFd_nZqKNu73vK02fPg2eDxtHIRQbdIJOjIQU2LnNFe6jFoH4VasKqeAbten4W-AGlOBC8krbx9CcyDj30ka0MA1R9SW8IQgewJ1lRO9Fay1XHtpq1ytTCiRaRTbsi1XSZK1T-1-e1SH9Mo60ucN5AD-v9m-C2lhWrdZb16JEvWYVsua_uNJTZX9EAkSLYsKhIa6duTwA2qq_9efWV729TiQgb2ktbomFhwuq2bg24VPs4cUTxU1m4eKLOmps4GaBONKnTojs89IaDhQ0QjJF8w7RSYYPLdcWU9oCcrsvndRvw_nju93mdMXEMEOuQSs9X2UTBdMjb0YuyDdg080dpC8D5fdYnVmaan47qDaTdGjyc5Axo4i0I1BFPz6aM1vfT8gdXJTiga1qhCwwT6DBKiqUERRqX7ji9gtcyvpLxHK716UFou3NWmXzrAhzapxWO2OKlSuzQ5UAI9I6fW1RtrgfdURj3g=s40-no'
       	
 	});
 marker2.setMap(map);

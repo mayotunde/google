@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+       <meta charset="utf-8">
+    <title>Reverse Geocoding using the google maps api</title>
+	<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzGrYijLQviiwIjrwSDv9mQcXXmTdcpMA&callback=initMap">
+    </script>
+    <style>
+     
+      #floating-panel {
+        position: absolute;
+        left: 35%;
+        margin-left: -180px;
+        bottom: 125px;
+        width: 300px;
+        z-index: 5;
+        background-color: #f45;
+        padding: 5px;
+        border: 1px solid #000;
+      }
+      #latlng {
+        width: 200px;
+      }
+    </style>
+  </head>
+  <body style='background:#e9b50b;'>
+    <div id="floating-panel">
+            <input id="submit" type="button" value="Reverse Geocoding">
+            <input id="latlng" type="text" value="7.50,4.00">
+    </div>
+    <div id="map" style='width:800px; height: 600px;border:2px solid black'></div>
+    <script>
+          function initMap() {
+    var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 8,
+          center: {lat: 7, lng: 3},
+	mapTypeId: google.maps.MapTypeId.SATELLITE
+        });
+
+        var geocoder = new google.maps.Geocoder;
+        var infowindow = new google.maps.InfoWindow;
+
+        document.getElementById('code').addEventListener('click', function() {
+          geocodeLatLng(geocoder, map, infowindow);
+        });
+      }
+
+      function geocodeLatLng(geocoder, map, infowindow) {
+        var input = document.getElementById('latlng').value;
+        var latlngStr = input.split(',', 2);
+        var latlng = {lat: parseFloat(latlngStr[0]), lng: parseFloat(latlngStr[1])};
+        geocoder.geocode({'location': latlng}, function(results, status) {
+          if (status === google.maps.GeocoderStatus.OK) {
+            if (results[1]) {
+              map.setZoom(11);
+              var marker = new google.maps.Marker({
+                position: latlng,
+                map: map
+              });
+              infowindow.setContent(results[1].formatted_address);
+              infowindow.open(map, marker);
+            } else {
+              window.alert('No results found');
+            }
+          } else {
+            window.alert('Geocoder failed due to: ' + status);
+          }
+        });
+      }
+    </script>
+    <div id='logo' style='position:absolute;bottom:80px;left:20px;float:right';>
+<img src="https://lh3.googleusercontent.com/jY9fWF3HjY1NPeluF6LQDyDRL2zqGevA_IW0jKu5Z6GqsiSw6mHE_oCNDvGV_PnL_G6JFZKzZDHNqSHd6wS9F12GHCGpPiDU2yF2RK3ELBYotYSNMPOVUnyyobGCGKDA1Rc3Xga6vaxbx0MN3YR2WVvwW6avdpXMUZdZNAtBVPlV0famTCd-dXeHDmr53KNPQQNWLLM5Wgp3rUYvxbINhvTCnMlaUeHrp0Hab5BJaTB6SbabPpnPNPT1X3uvz6nQs3PgSbbG2pevw4Yn91DQI_kTuIcf7fmS39MdOm2LSFpB0wHgEvvlloLJfpXw0TvGjBpgZFeA8pIdmeoAr6q4aonVVkydr3WMN8v6DJ2DzFcfgYUHalxrDPoJTiZoh0U-qNTeUxc-kpXca8xlmO2EpZg4_SFbdZUU6ZNgQBiJoP99IwZ03Qzvp_0bdEbmigdzY8RLwP5riKHgotnXY4E71qS8yzlD8JvK4bK5ojBzvZvXlnfXDo0y82a8LJCHqjxbK3RbKDYZybb72d31gc-bpx6m1sKT24RnHZp2hq9FVbs=w80-h50-no" /><br>
+<small><a href="http://mapsnigeriainitiative.wordpress.com">mapsNI</a><small>
+</div>
+  </body>
+</html>

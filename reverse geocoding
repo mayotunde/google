@@ -26,7 +26,7 @@
   </head>
   <body style='background:#e9b50b;'>
     <div id="floating-panel">
-            <input id="submit" type="button" value="Reverse Geocoding">
+            <input id="code" type="button" value="Reverse Geocoding">
             <input id="latlng" type="text" value="7.50,4.00">
     </div>
     <div id="map" style='width:800px; height: 600px;border:2px solid black'></div>
